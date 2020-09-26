@@ -1,0 +1,287 @@
+html,body{
+    box-sizing: border-box;
+    margin: 0px;
+    background-color: grey;
+}
+div.main{
+    width: 100%;
+    height: 680px;
+    animation-name: test;
+    
+    position: relative;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+/*@keyframes test{
+    0%{
+        background-color: red;
+    }
+    25%{
+        background-color: green;
+    }
+    50%{
+        background-color: greenyellow;
+    }
+    75%{
+        background-color: hotpink;
+    }
+    100%{
+        background-color: ivory;
+    }
+
+}*/
+@keyframes test{
+    from{
+        background-image: url(./laptop.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    to{
+        background-image: url(./server.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+button{
+    height: 30px;
+    margin: 0px;
+    box-shadow: 1px 2px 3px 1px black;
+}
+.main button{
+    
+    height: 40px;
+    width: 150px;
+    background-color:rgb(211, 33, 33);
+    border: none;
+    box-shadow:1px 2px 3px 1px black ;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-radius: 15px;
+    
+}
+
+
+.carousel-item button:hover{
+    background-color: rgb(255, 0, 0);
+    box-shadow: 4px 4px 6px 4px black; 
+    
+}
+h3>a{
+    margin-right: 20px;
+    color: white;
+    float:right;
+}
+h3>a:hover{
+    color: rgb(34, 17, 17);
+   
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+footer{
+    margin-top: 8px;
+    margin-left: 150px;
+    vertical-align: middle;
+    text-align: center;
+}
+footer a,span{
+    text-decoration: none;
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 18px;
+    color: rgb(253, 253, 253);
+}
+footer a:hover{
+    color: rgb(253, 253, 253);
+    text-decoration: underline;
+}    
+.card{
+    display: inline-flex;
+    box-sizing: border-box;
+    margin: 0px;
+    box-shadow: 1px 2px 3px 1px black;
+    width: 20%;
+    margin-left: 4%;
+}
+.card img{
+    max-height: 300px;
+}
+.card:hover{
+   box-shadow: 8px 8px 6px 4px black;   
+}
+.new-products-header{
+    /* background-color: rgb(213, 213, 224); */
+    color: rgba(255,255,255,.5);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.new-products-header h3{
+    padding-left: 20px;
+}
+hr{
+    margin: 0px;
+    border: 1px solid black;
+}
+button.btn-link{
+    text-align: center;
+    vertical-align: auto;
+    padding: 0px;
+    border: none;
+    width: 30px;
+    box-shadow: 1px 2px 3px 1px black;
+   
+}
+.cart-icon,.profile-icon{
+    color: rgba(255,255,255,.5);
+    margin: 0px 10px;
+}
+.search-icon{
+    color: rgba(255,255,255,.5);
+}
+.search-icon:hover{
+    color: rgb(221, 210, 210);
+}
+.cart-icon:hover,.profile-icon:hover{
+    color:rgb(221, 210, 210);
+    box-shadow: 2px 2px 3px 1px white;
+}
+.navbar{
+    display: inline-flex;
+    width: 100%;
+}
+.navbar-icons a{
+    margin: 0px 20px;
+}
+.authorization-link{
+    position: relative;
+    display: inline-block;
+  }
+  .authorization-link:hover div{
+    z-index: 1;
+    display: block;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);
+  }
+  .dropdown-link-box{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: -130px;
+  }
+  .dropdown-link-box li{
+    padding: 8px 16px;
+    margin:0px;
+    list-style: none;
+    text-align: left;
+    margin: 0px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: #1f1e1e;  
+  }
+  .dropdown-link-box ul{
+      padding-left: 0px;  }
+  .dropdown-link-box li:hover {
+    background-color: #ddd;    
+  }
+  .dropdown-link-box a {
+    color: #1f1e1e;  
+  }
+  .dropdown-link-box h2,.dropdown-link-box p{
+    color: #1f1e1e;
+    padding-left: 16px;  
+    text-align: left;
+  }
+  .dropdown-link-box a:hover {
+    background-color: #ddd; 
+    text-decoration: none;  
+  }
+  .dropdown-links{
+    color: red;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  .dropdown-links a{
+    color: red;
+  }
+  .block-search{
+    z-index: 0;
+  }
+  .app-store{
+    list-style: none;
+    display: flex;
+
+}
+  .app-store ul{
+      list-style: none;
+      display: flex;
+  }
+  .app-store ul li{
+    margin: 0px 10px;
+  }
+.socials-wrap{ 
+    display: flex;
+    float: right;
+    box-sizing: border-box;
+}
+.payment-methods:hover{
+background-color: rgba(15, 15, 15, 0.5);
+}
+.jumbotron{
+    padding:10px 0px;
+    margin: 0px;
+    width: fit-content;
+}
+.carousel-item{
+    z-index: 0;
+    position: relative;
+    display: flexbox;
+}
+.carousel-item p,.carousel button{
+    position: relative;
+    top: -150px;
+    left: 600px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 2em;
+    color: whitesmoke;
+}
+.carousel-item a{
+    position: absolute;
+    top:5px;
+    left:5px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 0.6em;
+    color: whitesmoke;
+}
+.carousel-item img{
+    position: relative;
+    top:100px;
+    left: 300px;
+    height: auto;
+    width: 300px;
+}
+.social-links{
+    font-size: 2em;
+    color: rgb(182, 172, 172);
+    
+}
+.social-links:hover{
+    font-size: 2em;
+    color:  rgba(15, 15, 15, 0.5);
+}
+.social-row{
+    padding-top: 30px;
+    border-top: 1px solid rgba(15, 15, 15, 0.5);
+    border-bottom: 1px solid rgba(15, 15, 15, 0.5);
+}
