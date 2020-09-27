@@ -1,0 +1,156 @@
+body,html{
+    box-sizing: border-box;
+    margin: 0px;
+    overflow-x: hidden;
+}
+.navbar-light{
+    padding-top: 3px ;
+    padding-bottom: 3px;
+    
+    background-color:  #e9ecef;
+}
+.navbar-brand{
+    padding:0px;
+}
+.navbar a ,#profile-button{
+    color:rgba(0,0,0,.5);
+    margin: 0px 10px;
+    padding: 3px 5px;
+}
+#search-box{
+    width: 400px;
+}
+.search-icon{
+    background-color:  #e9ecef;
+    border-radius: 5px;
+    color:rgba(0,0,0,.5);
+    
+}
+.search-icon:hover{
+    color: rgba(0,0,0,0.6);
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.6);
+}
+.navbar a:hover{
+    color: rgba(0,0,0,0.6);
+    text-decoration: none;
+}
+.main{
+    box-sizing: border-box;
+    height: 350px;
+    width: 100%;
+    background-color: aqua;
+}
+.carousel-inner{
+    height: 350px;
+}
+.carousel-inner img{
+    background-position: center;
+    background-attachment: fixed;
+}
+.carousel-caption{
+    top: 15%;
+    left: 30%;
+    right: unset;
+    height: auto;
+    color: wheat;
+    font-weight: bold;
+    text-shadow:1px 1px 2px black;
+}
+.carousel-caption h3{   
+    z-index: 1;
+    font-size: 3em;
+    top: 20%;
+    margin-bottom: 20px;
+}
+.new-products-header{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.new-products-header a{
+    float: right;
+    margin-right: 30px;
+}
+.jumbotron{
+    position: relative;
+    left: 10%;
+    width: 80%;
+    margin-top: 50px;
+    border-radius: 15px;
+    padding:20px 0px;
+}
+.card{
+    width: 15%;
+    margin-left: 4%;
+    display: inline-block;
+    background-color: #e9ecef;
+    border: none;
+    padding-bottom: 2px;
+}
+.card-body{
+    padding: 0px 5px;
+}
+.card:hover{
+    box-shadow: 2px 2px 2px 1px rgb(128, 124, 124);
+}
+.card-text{
+    margin-bottom: 2px;
+}
+
+.app-store {
+    vertical-align: middle;
+    display: flex;
+}
+#payment-methods{
+    padding-top: 5px;
+}
+#follow-links {
+    padding-top: 10px;
+}
+  .app-store ul ,.app-store h4 {
+      list-style: none;
+      display: flex;
+      margin: 0px;
+      vertical-align: middle;
+      text-align: center;
+  }
+  .app-store ul li{
+    margin: 0px 10px;
+    padding: 0px;
+}
+.social-row{
+    padding: 20px;
+    border-top: 1px solid rgba(0,0,0,.5);
+    border-bottom: 1px solid rgba(0,0,0,.5);
+}
+.socials-wrap{ 
+    display: flex;
+    float: right;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+.payment-methods:hover{
+background-color: rgba(15, 15, 15, 0.5);
+}
+.li-social a{
+    font-size: 2em;
+    vertical-align: middle;
+    color: rgba(0,0,0,.5);
+}
+.li-social a:hover{
+    color: rgb(37, 35, 35);
+}
+footer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+footer a,span{
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0px 10px;
+    color: rgb(163, 154, 154);
+}
+footer a:hover{
+    color: rgba(15, 15, 15, 0.6);
+    text-decoration: underline;
+}
