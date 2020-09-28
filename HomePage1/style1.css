@@ -8,7 +8,7 @@ div.main{
     width: 100%;
     height: 680px;
     animation-name: test;
-    
+    overflow-y: hidden;
     position: relative;
     animation-duration: 6s;
     animation-timing-function: ease-in-out;
